@@ -1,0 +1,36 @@
+.product-container {
+    background-color: #000000;
+    padding: 20px 0;
+  }
+  
+  .products-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .cards-container {
+      gap: 30px; /* Increase gap for larger screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .cards-container {
+      max-width: 1200px; /* Set a max width */
+      margin: 0 auto; /* Center the container */
+    }
+  }
+  
